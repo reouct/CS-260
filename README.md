@@ -6,7 +6,7 @@ Have you ever found it is so hard to create a good resume? The Resume creater ap
 
 ## Design
 
-![Resume creater diagram] (IMG_20161020_0001.jpg)
+![Resume creater diagram] (IMG_301EA1C274C4-1.jpeg)
 
 ## Key features
 
