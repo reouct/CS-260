@@ -18,6 +18,14 @@ Have you ever found it is so hard to create a good resume? The Resume creater ap
 
 ## Technologies
 
-- HTML - Use the correct TML structre for this application.
-- CSS - Use CSS to make the website looks better.
-- JavaScript - Use JavaScript to make the website more interactive.
+- **HTML** - Use the correct TML structre for this application.
+- **CSS** - Use CSS to make the website looks better.
+- **JavaScript** - Use JavaScript to make the website more interactive.
+- **Service** - Backend service with endpoints for:
+  - login
+  - retrieving choices
+  - submitting questions
+- **DB** - Store users, their answers, in database.
+- **Login** - Register and login users. Credentials securely stored in database. Can't answer the question unless authenticated.
+- **WebSocket** - Both the client and the server can send and receive data at the same time.
+- **React** - Application ported to use the React web framework.
