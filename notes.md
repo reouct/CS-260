@@ -5,3 +5,6 @@ I love this class.
 
 \*Sep 25 2025
 This class is great
+
+\*HTML
+how to insert a link? "<a href="url">link text</a>"
