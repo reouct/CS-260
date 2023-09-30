@@ -1,8 +1,8 @@
 <body>
-  <head>
+  <header>
     <h1>Resume Creater</h1>
     <h2>Login</h2>
-  </head>
+  </header>
   <form action="formSubmit.html" method="post">
     <li>
       <label for="text">Username:</label>
@@ -28,4 +28,30 @@
       <input type="submit" value="Submit" />
     </li>
   </form>
+  <main>
+    <h2>Questions for creating a Resume</h2>
+    <form action="formSubmit.html" method="post">
+      <li>
+        <label for="fullname">1.What is your Full Name?</label>
+        <input
+          type="text"
+          id="text"
+          name="fullname"
+          required
+          pattern="[Aa].*"
+        />
+      </li>
+      <li>
+        <label for="education">2.What is your hihgest educataion? </label>
+        <input type="text" id="text" name="education" />
+      </li>
+      <li>
+        <label for="experience">3. What working experience do you have? </label>
+        <input type="text" id="text" name="experience" />
+      </li>
+      <li>
+        <input type="submit" value="Submit" />
+      </li>
+    </form>
+  </main>
 </body>
