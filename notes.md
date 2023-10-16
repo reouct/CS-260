@@ -8,3 +8,6 @@ This class is great
 
 \*HTML
 how to insert a link? "<a href="url">link text</a>"
+
+I love htmls
+I really do.
