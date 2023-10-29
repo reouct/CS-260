@@ -52,3 +52,12 @@ For this deliverable I properly styled the application into its final appearance
 - **Application elements** - Used good contrast and whitespace
 - **Application text content** - Consistent fonts
 - **Application images** - Still don't have images and so no styling here. 😔
+
+## JavaScript deliverable
+
+For this deliverable I implemented by JavaScript so that the application works for a single user. I also added placeholders for future technology.
+
+- **login** - When you press enter or the login button it takes you to the create page.
+- **database** - Click the submit button and the data will be stored. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
+- **WebSocket** - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
+- **application logic** - The highlight and ranking number change based up the user's selections.
