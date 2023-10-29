@@ -60,4 +60,4 @@ For this deliverable I implemented by JavaScript so that the application works f
 - **login** - When you press enter or the login button it takes you to the create page.
 - **database** - Click the submit button and the data will be stored. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
 - **WebSocket** - This will be implement with WebSocket later.
-- **application logic** - This application is going to create is based on the answers you give to the questions. The questions are going to be stored in the database and the answers are going to be stored in the local storage. The application will use the answers to create a resume for you.
+- **application logic** - The resume created by this application change based up the user's answers.
