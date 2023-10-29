@@ -1,79 +1,59 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8" />
-  <title>Resume Creater</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="login.js"></script>
-<body>
-  <header>
-    <h1>Resume Creater</h1>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="service.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </nav>
-    <h2>Login</h2>
-  </ul>
-  </header>
-  <form action="formSubmit.html" method="post">
-    <li>
-      <label for="text">Username:</label>
-      <input
-        type="text"
-        id="text"
-        name="username"
-        placeholder="Enter Username"
-        required
-        pattern="[Aa].*"
-      />
-    </li>
-    <li>
-      <label for="password">Password: </label>
-      <input
-        type="password"
-        id="password"
-        name="varPassword"
-        placeholder="Enter Password"
-      />
-    </li>
-    <li>
-      <input type="submit" value="Submit" />
-    </li>
-  </form>
-  <main>
-    <h2>Questions for creating a Resume</h2>
-    <form action="formSubmit.html" method="post">
-      <li>
-        <label for="fullname">1.What is your Full Name?</label>
-        <input
-          type="text"
-          id="text"
-          name="fullname"
-          required
-          pattern="[Aa].*"
-        />
-      </li>
-      <li>
-        <label for="education">2.What is your hihgest educataion? </label>
-        <input type="text" id="text" name="education" />
-      </li>
-      <li>
-        <label for="experience">3. What working experience do you have? </label>
-        <input type="text" id="text" name="experience" />
-      </li>
-      <li>
-        <input type="submit" value="Submit" />
-      </li>
-    </form>
-  </main>
-  <footer>
-    <p>
-      <a href="https://github.com/reouct/CS-260"
-        >@Bowen's GitHub</a
-      >
-    </p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Creator</title>
+
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="main.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <header class="container-fluid">
+      <nav class="navbar fixed-top navbar-dark">
+        <a class="navbar-brand" href="#">Resume Creater<sup>&reg;</sup></a>
+        <menu class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.html">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </menu>
+      </nav>
+    </header>
+
+    <main class="container-fluid bg-secondary text-center">
+      <div>
+        <h1>Welcome</h1>
+        <p>Login here</p>
+        <div>
+          <input type="text" id="name" placeholder="Your name here" />
+          <button class="btn btn-primary" onclick="login()">Login</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white-50">
+      <div class="container-fluid">
+        <span class="text-reset">Bowen Liu</span>
+        <a class="text-reset" href="https://github.com/reouct/CS-260"
+          >My GitHub</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
