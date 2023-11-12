@@ -61,3 +61,13 @@ For this deliverable I implemented by JavaScript so that the application works f
 - **database** - Click the submit button and the data will be stored. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
 - **WebSocket** - This will be implement with WebSocket later.
 - **application logic** - Every time you refresh the About page, there will be a new quote displayed.
+
+## Service deliverable
+
+For this deliverable I added backend endpoints that receives votes and returns the voting totals.
+
+- **Node.js/Express HTTP service** - done!
+- **Static middleware for frontend** - done!
+- **Calls to third party endpoints** - Every time you refresh the About page, there will be a new quote displayed.
+- **Backend service endpoints** - Placeholders for login that stores the current user on the server.
+- **Frontend calls service endpoints** - I did this using the fetch function in the About page.
