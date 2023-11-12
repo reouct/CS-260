@@ -60,4 +60,4 @@ For this deliverable I implemented by JavaScript so that the application works f
 - **login** - When you press enter or the login button it takes you to the create page.
 - **database** - Click the submit button and the data will be stored. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
 - **WebSocket** - This will be implement with WebSocket later.
-- **application logic** - The resume created by this application change based up the user's answers.
+- **application logic** - Every time you refresh the About page, there will be a new quote displayed.
