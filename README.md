@@ -79,3 +79,12 @@ For this deliverable I stored the votes in the database.
 - **MongoDB Atlas database created** - done!
 - **Endpoints for data** - My stubbed out endpoints now process the data and send it to Mongo.
 - **Stores data in MongoDB** - done!
+
+## Login deliverable
+
+For this deliverable I associate the votes with the logged in user.
+
+- **User registration** - Creates a new account in the database.(not yet)
+- **existing user** - Stores the votes under the same user if the user already exists.(not yet)
+- **Use MongoDB to store credentials** - Stores both user and their votes.(not yet)
+- **Restricts functionality** - You cannot vote until you have logged in. This is restricted on the frontend only. 😔(not yet)
