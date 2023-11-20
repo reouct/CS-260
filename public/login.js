@@ -5,6 +5,7 @@
     setDisplay("loginControls", "none");
     setDisplay("playControls", "block");
   } else {
+    console.log(`userName: ${userName}`);
     setDisplay("loginControls", "block");
     setDisplay("playControls", "none");
   }
@@ -65,6 +66,7 @@ async function getUser(email) {
 
 function setDisplay(controlId, display) {
   const playControlEl = document.querySelector(`#${controlId}`);
+  console.log(`playControlEl: ${playControlEl}`);
   if (playControlEl) {
     playControlEl.style.display = display;
   }
