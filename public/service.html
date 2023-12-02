@@ -16,10 +16,24 @@
         <li><a href="contact.html">Contact</a></li>
         <li><a href="about.html">About</a></li>
     </nav>
-    <h2>You can start a conversation with out representative here.</h2>
+    <h2>You can start a conversation here.</h2>
   </ul>
   </header>
-  <main></main>
+  <main>
+    <div class="name">
+      <fieldset id="name-controls">
+        <legend>My Name</legend>
+        <input id="my-name" type="text" />
+      </fieldset>
+    </div>
+
+    <fieldset id="chat-controls" disabled>
+      <legend>Chat</legend>
+      <input id="new-msg" type="text" />
+      <button onclick="sendMessage()">Send</button>
+    </fieldset>
+    <div id="chat-text"></div>
+  </main>
   <footer>
     <p>
       <a href="https://github.com/reouct/CS-260"
@@ -27,4 +41,5 @@
       >
     </p>
 </body>
+<script src="service.js"></script>
 </html>
