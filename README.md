@@ -97,3 +97,12 @@ For this deliverable I used webSocket to update the votes on the frontend in rea
 - **Frontend makes WebSocket connection** - done!
 - **Data sent over WebSocket connection** - done!
 - **WebSocket data displayed** - Users can chat in realtime. 😔
+
+## React deliverable
+
+For this deliverable I converted the application over to use Vue. I know it is supposed to use React, but the instructor said I could use Vue because I already have extensive experience with React.
+
+- **Bundled and transpiled** - done!
+- **Components** - Login, voting list, vote are all components.
+- **Router** - Routing between login and voting components.
+- **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
