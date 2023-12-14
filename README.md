@@ -100,9 +100,9 @@ For this deliverable I used webSocket to update the votes on the frontend in rea
 
 ## React deliverable
 
-For this deliverable I converted the application over to use Vue. I know it is supposed to use React, but the instructor said I could use Vue because I already have extensive experience with React.
+For this deliverable I used React to build the frontend and create the resume creator application.
 
 - **Bundled and transpiled** - done!
-- **Components** - Login, voting list, vote are all components.
-- **Router** - Routing between login and voting components.
+- **Components** - Login and About components are completed.
+- **Router** - Routing between login and creating components.
 - **Hooks** - Vue uses class properties instead of `UseState` to track changes in vote state.
